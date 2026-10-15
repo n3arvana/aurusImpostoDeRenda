@@ -138,6 +138,7 @@ Antes de versionar ou compartilhar o projeto:
 Se dados reais já tiverem sido enviados a um repositório público, remova
 o acesso público e avalie a necessidade de limpar o histórico do
 repositório e tomar medidas adicionais.
+
    Limitações e melhorias futuras
 O projeto está em desenvolvimento. Algumas melhorias que podem ser
 consideradas:
