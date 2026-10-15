@@ -159,16 +159,19 @@ consideradas:
   resoluções;
 - [ ] Validar os conceitos fiscais com fontes oficiais antes de
   incluir qualquer cálculo tributário.
- Aviso
+
+Aviso
 Este projeto tem finalidade educacional e organizacional. Não é um
 produto oficial da Receita Federal e não substitui o sistema oficial de
 declaração do Imposto de Renda, um profissional de contabilidade ou a
 consulta às orientações oficiais vigentes. O usuário é responsável por
 conferir a exatidão dos dados e a adequação de qualquer informação
 utilizada para fins fiscais.
+
 A referência visual à Lyon Esports é uma inspiração de design. Antes de
 distribuir ou divulgar publicamente uma versão que utilize logotipos ou
 ativos de terceiros, verifique as permissões de uso aplicáveis.
+
 Autor
 Guilherme Breno Martins
 Projeto desenvolvido para praticar organização de dados, fórmulas,
