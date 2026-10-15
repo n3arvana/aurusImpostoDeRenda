@@ -1,4 +1,4 @@
-# aurusImpostoDeRenda
+# Aurus Imposto de Renda
  Aurus IR --- Organizador de Imposto de Renda no Excel
 Uma planilha com aparência de aplicativo para organizar dados do
 titular, informes bancários e entradas financeiras, além de visualizar
