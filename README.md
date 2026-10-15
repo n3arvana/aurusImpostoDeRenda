@@ -1,5 +1,5 @@
 # aurusImpostoDeRenda
-Lyon IR --- Organizador de Imposto de Renda no Excel
+ Aurus IR --- Organizador de Imposto de Renda no Excel
 Uma planilha com aparência de aplicativo para organizar dados do
 titular, informes bancários e entradas financeiras, além de visualizar
 a distribuição de valores por instituição.
@@ -7,7 +7,7 @@ a distribuição de valores por instituição.
 
 
 
-📌 Sobre o projeto
+ Sobre o projeto
 O Lyon IR é um projeto desenvolvido em Microsoft Excel com o
 objetivo de centralizar e organizar informações que podem ser úteis
 durante a preparação da declaração do Imposto de Renda. A proposta
@@ -23,7 +23,8 @@ orientação contábil ou conferência das regras tributárias aplicáveis. Os
 valores exibidos no dashboard representam os dados cadastrados na
 planilha e não devem ser interpretados automaticamente como rendimentos
 tributáveis ou como cálculo do imposto devido.
-🎯 Objetivos
+
+ Objetivos
 - Centralizar informações em uma única pasta de trabalho.
 - Organizar os dados cadastrais do titular.
 - Registrar instituições financeiras, valores informados e referências
@@ -34,7 +35,7 @@ tributáveis ou como cálculo do imposto devido.
   consistência de cores e leitura rápida.
 - Praticar recursos do Excel, como fórmulas, listas de seleção,
   formatação de células e gráficos.
-🧩 Estrutura da pasta de trabalho
+   Estrutura da pasta de trabalho
 O arquivo é composto pelas seguintes abas:
   Aba                                 Finalidade
   TITULAR                           Área para preenchimento dos dados
@@ -105,46 +106,8 @@ usado isoladamente para concluir qual valor deve ser declarado.
 Contém uma lista de instituições financeiras para padronizar o
 preenchimento. A lista pode ser atualizada conforme a necessidade do
 projeto, mantendo consistência nos nomes selecionados.
-🎨 Identidade visual
-A interface utiliza uma paleta dark premium para reforçar uma aparência
-organizada e consistente.
-  Cor                     HEX                     Aplicação sugerida
-  Preto ônix              #0B0B0F               Fundo principal e
-                                                  navegação
-  Dourado Lyon            #D4AF37               Destaques, botões
-                                                  principais e elementos
-                                                  da marca
-  Grafite profundo        #17171D               Cartões e painéis
-  Cinza ardósia           #25252E               Elementos secundários e
-                                                  áreas interativas
-  Branco gelo             #F3F4F6               Textos principais e
-                                                  conteúdo de leitura
-  Cinza prata             #A1A1AA               Legendas e informações
-                                                  auxiliares
-  Verde positivo          #4ADE80               Indicadores favoráveis,
-                                                  quando aplicável
-  Vermelho de alerta      #F87171               Pendências e alertas,
-                                                  com contexto textual
-  Âmbar de atenção        #FBBF24               Avisos e informações a
-                                                  conferir
-  Azul informativo        #60A5FA               Ajuda contextual e
-                                                  informações
-                                              complementares
-O dourado deve funcionar como cor de destaque, sem competir com os
-dados. A consistência de cores, títulos e espaçamentos ajuda a aproximar
-as abas de uma interface de aplicativo.
-🛠️ Tecnologias e recursos utilizados
-- Microsoft Excel --- estrutura principal do projeto;
-- Fórmulas do Excel --- consolidação de valores e cálculo de
-  participação percentual;
-- Gráficos --- visualização comparativa entre instituições;
-- Validação de dados/listas de referência --- apoio à padronização
-  do preenchimento;
-- Formatação de células e elementos visuais --- criação de uma
-  interface organizada e coerente.
-O projeto é uma pasta de trabalho do Excel (.xlsx). A versão analisada
-não indica dependência de código VBA para as funcionalidades descritas.
-🚀 Como utilizar
+
+ Como utilizar
 1. Baixe ou clone este repositório.
 2. Abra o arquivo .xlsx em uma versão compatível do Microsoft Excel.
 3. Leia as instruções apresentadas em cada aba.
@@ -158,16 +121,8 @@ não indica dependência de código VBA para as funcionalidades descritas.
    qualquer procedimento fiscal.
 Dica: mantenha uma cópia original vazia como modelo e trabalhe em
 uma cópia separada para os dados de cada pessoa ou exercício.
-📊 Fórmulas principais
-A lógica da participação percentual é:
-=SEERRO(D11/SOMA($D$11:$D$13);0)
-A fórmula divide o valor da instituição pela soma dos valores
-considerados no dashboard. O uso de SEERRO evita exibir um erro caso o
-total esteja zerado ou ainda não tenha sido preenchido.
-A fórmula precisa ser ajustada se a quantidade de instituições ou a
-posição da tabela for alterada. Confira também se as referências apontam
-para as células corretas antes de confiar nos resultados.
-🔐 Privacidade e segurança dos dados
+
+ Privacidade e segurança dos dados
 Informações fiscais e cadastrais são sensíveis. Não publique no GitHub
 arquivos preenchidos com dados reais.
 Antes de versionar ou compartilhar o projeto:
@@ -183,7 +138,7 @@ Antes de versionar ou compartilhar o projeto:
 Se dados reais já tiverem sido enviados a um repositório público, remova
 o acesso público e avalie a necessidade de limpar o histórico do
 repositório e tomar medidas adicionais.
-⚠️ Limitações e melhorias futuras
+   Limitações e melhorias futuras
 O projeto está em desenvolvimento. Algumas melhorias que podem ser
 consideradas:
 - [ ] Criar uma tela de checklist para acompanhar documentos e etapas
@@ -203,7 +158,7 @@ consideradas:
   resoluções;
 - [ ] Validar os conceitos fiscais com fontes oficiais antes de
   incluir qualquer cálculo tributário.
-🧾 Aviso
+ Aviso
 Este projeto tem finalidade educacional e organizacional. Não é um
 produto oficial da Receita Federal e não substitui o sistema oficial de
 declaração do Imposto de Renda, um profissional de contabilidade ou a
@@ -213,7 +168,7 @@ utilizada para fins fiscais.
 A referência visual à Lyon Esports é uma inspiração de design. Antes de
 distribuir ou divulgar publicamente uma versão que utilize logotipos ou
 ativos de terceiros, verifique as permissões de uso aplicáveis.
-👤 Autor
-Guilherme
+Autor
+Guilherme Breno Martins
 Projeto desenvolvido para praticar organização de dados, fórmulas,
 visualização de informações e design de interfaces no Microsoft Excel.
