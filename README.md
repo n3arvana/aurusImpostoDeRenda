@@ -160,7 +160,8 @@ consideradas:
 - [ ] Validar os conceitos fiscais com fontes oficiais antes de
   incluir qualquer cálculo tributário.
 
-Aviso
+Aviso:
+
 Este projeto tem finalidade educacional e organizacional. Não é um
 produto oficial da Receita Federal e não substitui o sistema oficial de
 declaração do Imposto de Renda, um profissional de contabilidade ou a
